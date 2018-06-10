@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/pipe_bg.qm</file>
+        <file alias="de">locale/pipe_de.qm</file>
+        <file alias="en">locale/pipe_en.qm</file>
+        <file alias="es">locale/pipe_es.qm</file>
+        <file alias="fi">locale/pipe_fi.qm</file>
+        <file alias="fr">locale/pipe_fr.qm</file>
+        <file alias="it">locale/pipe_it.qm</file>
+        <file alias="ja">locale/pipe_ja.qm</file>
+        <file alias="pl">locale/pipe_pl.qm</file>
+        <file alias="pt">locale/pipe_pt.qm</file>
+        <file alias="ru">locale/pipe_ru.qm</file>
+        <file alias="sk">locale/pipe_sk.qm</file>
+        <file alias="sv">locale/pipe_sv.qm</file>
+        <file alias="vi">locale/pipe_vi.qm</file>
+        <file alias="zh_CN">locale/pipe_zh_CN.qm</file>
+        <file alias="zh_TW">locale/pipe_zh_TW.qm</file>
+    </qresource>
+</RCC>

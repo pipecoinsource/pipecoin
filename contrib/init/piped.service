@@ -1,0 +1,22 @@
+[Unit]
+Description=Pipe's distributed currency daemon
+After=network.target
+
+[Service]
+User=pipecore
+Group=pipecore
+
+Type=forking
+PIDFile=/var/lib/piped/piped.pid
+ExecStart=/usr/bin/piped -daemon -pid=/var/lib/piped/piped.pid \
+-conf=/etc/pipecore/pipe.conf -datadir=/var/lib/piped -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

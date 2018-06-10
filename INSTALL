@@ -1,0 +1,16 @@
+Building Pipe Core
+
+Use the autogen script to prepare the build environment.
+
+    ./autogen.sh
+    ./configure
+    make
+
+Precompiled binaries are available at github, see
+https://github.com/pipecoin/pipecoin/releases
+
+Always verify the signatures and checksums.
+
+See doc/build-*.md for instructions on building piped,
+the intended-for-services, no-graphical-interface, reference
+implementation of Pipe.

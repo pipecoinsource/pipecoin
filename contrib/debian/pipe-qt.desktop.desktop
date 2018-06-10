@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pipe
+Comment=Pipe P2P Cryptocurrency
+Exec=pipe-qt %u
+Terminal=false
+Type=Application
+Icon=pipe128
+MimeType=x-scheme-handler/pipe;
+Categories=Office;Finance;
+Name[en_US]=pipe-qt.desktop

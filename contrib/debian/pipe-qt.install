@@ -1,0 +1,6 @@
+usr/local/bin/pipe-qt usr/bin
+share/pixmaps/pipe32.xpm usr/share/pixmaps
+share/pixmaps/pipe16.xpm usr/share/pixmaps
+share/pixmaps/pipe128.png usr/share/pixmaps
+debian/pipe-qt.desktop usr/share/applications
+debian/pipe-qt.protocol usr/share/kde4/services/
